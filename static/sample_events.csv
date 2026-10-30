@@ -1,0 +1,5 @@
+source_ip,path,status,message,user_agent
+203.0.113.10,/login,401,Repeated failed login attempt,Mozilla/5.0
+198.51.100.22,"/products?id=1 UNION SELECT password FROM users",400,Suspicious query string,curl/8.0
+192.0.2.44,/../../etc/passwd,403,Blocked request,scanner
+192.0.2.88,/home,200,Normal page request,Mozilla/5.0
